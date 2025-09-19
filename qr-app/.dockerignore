@@ -1,0 +1,32 @@
+# Node modules (reinstalled inside container)
+node_modules
+
+# Next.js build output
+.next
+out
+dist
+build
+
+# Logs
+npm-debug.log
+yarn-error.log
+*.log
+
+# Local env files (don't bake secrets into image)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Git & editor junk
+.git
+.gitignore
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Docker itself
+docker-compose*.yml
+compose.yaml
