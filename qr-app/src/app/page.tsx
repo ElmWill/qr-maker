@@ -42,7 +42,7 @@ export default function Home(){
         <a
           href={qr}
           download="qrcode.png"
-          className="bg-green-500 text-white p-2 rounded"
+          className="mt-6 bg-green-500 text-white p-2 rounded"
         >
           Download QR Code
         </a>
